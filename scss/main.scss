@@ -1,0 +1,27 @@
+@import './variables/colors';
+@import './variables/fonts';
+
+//  q  $ significa para señar una palabra, en este caso quiere decir que naranja significa color orange
+$ancho-grande: 650px;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+div {
+    background-color: grey;
+    padding: 20px;
+
+    h1 {
+        font-size: 34px;
+        width: $ancho-grande;
+        margin: auto;
+
+        span {
+            color: $naranja;
+        }
+    }
+}
+// es mas organizado que el css

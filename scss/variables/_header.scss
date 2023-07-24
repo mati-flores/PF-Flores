@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
 body {
     background-color: #f7ebad;
 }
@@ -10,8 +17,4 @@ header img {
     width: 100px;
     height: 100px;
 
-}
-
-header img a {
-    background-color: #f7ebad;
 }

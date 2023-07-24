@@ -3,37 +3,17 @@
 @import './variables/footer';
 @import './variables/header';
 @import './variables/fotos';
-
+@import './variables/contacto';
 //  q  $ significa para señar una palabra, en este caso quiere decir que naranja significa color orange
 $ancho-grande: 650px;
 
-* {
-    margin:0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-body {
-    background-color: #f7ebad;
-}
-
-.bg-body-tertiary {
-    background-color: #FFACAC !important;
-}
-
-header img {
-    width: 100px;
-    height: 100px;
-
-}
-
-
 /*MAIN*/
-.main{
+.main {
     background-color: #f7ebad;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
 }
+
 h1 {
     text-align: center;
     border-style: solid;
@@ -75,31 +55,3 @@ main ul {
     height: 400px;
     width: 90%;
 }
-
-
-
-/*FOOTER*/
-
-.footer {
-    background-color: #FFACAC;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: small;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-
-
-}
-
-.footer img {
-    width: 40px;
-    height: 35px;
-}
-
-.footer p {
-    display: inline;
-    margin-right: 30px;
-}
-

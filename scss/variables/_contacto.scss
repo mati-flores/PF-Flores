@@ -1,0 +1,72 @@
+.cuadro {
+    display: flex;
+    background-color: #FFACAC;
+    height: 850px;
+}
+
+.cuadro1 {
+    display: flex;
+    background-color: #f7ebad;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    border-style: double;
+    border-color: #FFACAC;
+}
+
+.ul-cuadro1 {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+
+.ul-cuadro1 li {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.ul-cuadro1 li img {
+    width: 25px;
+    height: 20px;
+}
+
+#cua1 {
+    padding-bottom: 7px;
+
+
+}
+
+.letras-contacto {
+    text-decoration: none;
+
+}
+
+.mapa {
+    padding-left: 15px;
+    width: auto;
+    overflow-x: hidden;
+
+
+
+}
+
+.cuadro2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7ebad;
+    border-style: double;
+    border-color: #FFACAC;
+
+
+}
+
+.hh3 {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: larger;
+    font-style: oblique;
+}

@@ -1,0 +1,35 @@
+.postres {
+    display: flex;
+    background-color: #f7ebad;
+}
+
+.ul-postres {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.ul-postres li {
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+
+}
+
+.ul-postres li p {
+
+    padding-top: 25px;
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+.ul-postres li img {
+    width: 500px;
+    height: 450px;
+}
+.card{
+    width: 31.4rem !important;
+}

@@ -1,0 +1,37 @@
+.fotos img {
+    height: 500px;
+    width: 33%;
+    display: inline-flex;
+    padding: 3px;
+    margin: 0px;
+    background-color: hsl(171, 40%, 87%);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(240, 228, 159);
+
+
+}
+
+.fotos {
+    background-color: #f7ebad;
+}
+
+.div2 {
+    display: block;
+    background-color: #fab8b8;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+.a-hiper {
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: bold;
+}

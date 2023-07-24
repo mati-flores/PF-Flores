@@ -1,5 +1,8 @@
 @import './variables/colors';
 @import './variables/fonts';
+@import './variables/footer';
+@import './variables/header';
+@import './variables/fotos';
 
 //  q  $ significa para señar una palabra, en este caso quiere decir que naranja significa color orange
 $ancho-grande: 650px;
@@ -9,6 +12,21 @@ $ancho-grande: 650px;
     padding: 0;
     font-family: sans-serif;
 }
+
+body {
+    background-color: #f7ebad;
+}
+
+.bg-body-tertiary {
+    background-color: #FFACAC !important;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+
+}
+
 
 /*MAIN*/
 .main{
@@ -84,3 +102,4 @@ main ul {
     display: inline;
     margin-right: 30px;
 }
+

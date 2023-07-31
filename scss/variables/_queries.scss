@@ -79,7 +79,7 @@
     }
 }
 
-@media (min-width:375px) and (max-width: 768px){
+@media (min-width:280px) and (max-width: 768px){
     #cua1 {
         padding-bottom: 7px;
         font-size: x-large;
@@ -180,7 +180,7 @@
 
 
     .mapa {
-       width: 100%;
+       max-width: 100%;
        overflow: hidden;
     }
     .img2 {

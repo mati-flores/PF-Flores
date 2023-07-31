@@ -1,6 +1,6 @@
 .div3 {
     background-color: #f7ebad;
-    height: 700px;
+    min-height: calc(100vh - 126px - 150px);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -48,7 +48,7 @@ h3 {
     border: #FFACAC;
     border-style: groove;
     background-color: antiquewhite;
-    width: 300px;
+    max-width: 300px;
     padding: 15px 15px 15px 15px;
 
 }
